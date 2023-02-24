@@ -5375,7 +5375,7 @@ fieldset:disabled .btn {
   align-items: center;
   width: 100%;
   padding: 1rem 1.25rem;
-  font-size: 25px;
+  font-size: 22px;
   /* font-size: 1rem; */
   color: #212529;
   text-align: left;
@@ -5385,7 +5385,12 @@ fieldset:disabled .btn {
   overflow-anchor: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, border-radius 0.15s ease;
 }
+@media (max-width: 680px) {
 
+.accordion-button {
+  font-size: 20px;
+}
+}
 @media (prefers-reduced-motion: reduce) {
   .accordion-button {
     transition: none;
@@ -12838,6 +12843,10 @@ padding-top: 33px;
 }
 body{
   font-size: 19px;
+}
+
+.accordion-button {
+  font-size: 20px;
 }
 }
 
