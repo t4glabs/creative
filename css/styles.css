@@ -83,9 +83,10 @@ body {
   /* font-family: var(--bs-body-font-family); */
   /* font-size: var(--bs-body-font-size); */
   /* font-weight: var(--bs-body-font-weight); */
-  font-family: 'Merriweather';
+  /* font-family: 'Merriweather'; */
+  font-family:  Times, "Times New Roman", Georgia, serif;;
     font-weight: 200;
-    font-size: 20px;
+    font-size: 22px;
   line-height: var(--bs-body-line-height);
   color: var(--bs-body-color);
   text-align: var(--bs-body-text-align);
@@ -707,6 +708,7 @@ progress {
   .container {
     max-width: 540px;
   }
+ 
 }
 
 @media (min-width: 768px) {
@@ -12981,9 +12983,9 @@ padding-top: 33px;
     height: 150vh;
   }
 
-  .carousel-caption {
+  /* .carousel-caption { */
     /* top: 22%; */
-  }
+  /* } */
 }
 
 
@@ -13005,9 +13007,9 @@ padding-top: 33px;
   }
 }
 
-.carousel-caption {
+/* .carousel-caption { */
   /* top: 22%; */
-}
+/* } */
 
 /* 319 */
 
@@ -13033,6 +13035,9 @@ padding-top: 33px;
 
 .fa-brands{
   font-size: 28px;
+}
+.fa-brands:hover{
+  font-size: 29px;
 }
 /* #foot-id{
     font-size: 10px;
