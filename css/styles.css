@@ -182,7 +182,7 @@ h4,
 
 h5,
 .h5 {
-  font-size: 1.25rem;
+  font-size: 2rem;
 }
 
 h6,
@@ -244,7 +244,7 @@ blockquote {
 
 b,
 strong {
-  font-weight: bolder;
+  font-size: 19px;
 }
 
 small,
@@ -662,7 +662,7 @@ progress {
   height: 270px;
   /* height: auto; */
   width: 100%;
-
+  border: 3px solid #131639;
 }
 
 .img-thumbnail {
@@ -5359,7 +5359,7 @@ fieldset:disabled .btn {
   align-items: center;
   width: 100%;
   padding: 1rem 1.25rem;
-  font-size: 1.25rem;
+  font-size: 25px;
   /* font-size: 1rem; */
   color: #212529;
   text-align: left;
@@ -12502,6 +12502,8 @@ header.masthead {
   /* background: rgba(244, 98, 58, 0.9); */
   transition: opacity 0.25s ease;
   text-align: center;
+  /* border: 5px solid blue; */
+  /* border-color:  salmon; */
 }
 
 #portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-category,
@@ -12671,7 +12673,7 @@ padding-top: 33px;
   display: flex;
   flex-direction: column;
   padding-top: 55px;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 
@@ -13026,18 +13028,16 @@ padding-top: 33px;
 }
 
 
-.contact-section{
-  display: flex;
-    justify-content: space-between;
-    padding-top: 17px;
-
+#contact-section{ 
+    display: flex;
+    justify-content: center;
+    gap: 31px;
 }
-
 .fa-brands{
-  font-size: 28px;
+  font-size: 40px;
 }
 .fa-brands:hover{
-  font-size: 29px;
+  color: #2bc3a7;
 }
 /* #foot-id{
     font-size: 10px;
