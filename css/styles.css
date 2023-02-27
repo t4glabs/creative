@@ -85,19 +85,18 @@ body {
   /* font-weight: var(--bs-body-font-weight); */
   /* font-family: 'Merriweather'; */
   /* font-family: Times, "Times New Roman", Georgia, serif; */
-  ;
-  font-family: sans-serif;
-  font-weight: 200;
-  font-size: 25px;
-  /* font-size: 22px; */
+  
+  /* font-family: sans-serif; */
+  /* font-family: 'Nunito', sans-serif; */
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
   line-height: var(--bs-body-line-height);
   color: var(--bs-body-color);
   text-align: var(--bs-body-text-align);
   background-color: var(--bs-body-bg);
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  /* ********* */
-  /* text-align: center; */
 }
 
 .team-img {
@@ -149,7 +148,7 @@ h1,
   margin-top: 0;
   margin-bottom: 0.5rem;
   /* font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
-  font-weight: 500;
+  font-weight: 300;
   line-height: 1.2;
   font-size: 40px;
 
@@ -185,7 +184,8 @@ h1,
 
 h3,
 .h3 {
-  font-size: 22px;
+  font-size: 18px;
+  /* font-weight: 400; */
   /* font-size: calc(1.3rem + 0.6vw); */
 }
 
@@ -272,9 +272,8 @@ blockquote {
   margin: 0 0 1rem;
 }
 
-b,
-strong {
-  font-size: 30px;
+b{
+  font-size: 18px;
   font-weight: 500;
 }
 
@@ -5401,7 +5400,7 @@ fieldset:disabled .btn {
   align-items: center;
   width: 100%;
   padding: 1rem 1.25rem;
-  font-size: 30px;
+  font-size: 22px;
   /* font-size: 1rem; */
   color: #212529;
   text-align: left;
@@ -8530,8 +8529,8 @@ fieldset:disabled .btn {
 }
 
 .py-9 {
-  padding-top: 10rem !important;
-  padding-bottom: 2rem !important;
+  padding-top: 7rem !important;
+  padding-bottom: 1rem !important;
 }
 
 /* .py-5 {
@@ -12748,7 +12747,7 @@ padding-top: 33px;
 }
 
 .con-info {
-  font-size: 25px;
+  font-size: 20px;
   color: #f8fafccf;
 }
 
@@ -12789,7 +12788,7 @@ padding-top: 33px;
   }
 }
 .fa-brands {
-  font-size: 40px;
+  font-size: 30px;
 }
 @media (max-width: 770px) {
   .pepole {
@@ -12803,7 +12802,7 @@ padding-top: 33px;
   .info {
     font-size: 16px;
   }
-
+  
   .main-div {
     padding: 30px 20px;
   }
@@ -12883,7 +12882,7 @@ padding-top: 33px;
     font-size: 20px;
   }
   #order-list{
-    padding: 6px 0px;
+    padding: 6px -1px;
   }
 }
 
@@ -12904,6 +12903,7 @@ padding-top: 33px;
     gap: 30px;
     flex-wrap: wrap;
 }
+
 }
 
 
@@ -12917,8 +12917,25 @@ padding-top: 33px;
       flex-wrap: wrap;
   
   }
+  
+}
+.what-we-do-box{
+  background-color: #131639;;
+  padding: 9px;
+  color: white;
+  box-shadow: 0 1px 2px 0 rgb(50 55 60 / 30%), 0 1px 3px 1px rgb(60 64 67 / 15%);
+border-radius: 10px;
+ }
+
+ .whoWe-box{
+  background: white;
+  padding: 20px;
 }
 
+
+#ul-tag{
+  padding: 20px 30px;
+}
 @media (max-width: 680px) {
   .slbCaption {
     font-size: 15px;
@@ -12945,15 +12962,27 @@ padding-top: 33px;
     justify-content: space-between;
     padding: 5px 39px;
 }
+.what-we-do-box{
+    padding: 30px;
+ }
+ .whoWe-box{
+  background: white;
+  padding: 0px;
+}
+
+
+#ul-tag{
+  padding: 10px 15px;
+}
 }
 
 
 @media (max-width: 513px) {
 
-  strong {
+  /* strong {
     font-size: 18px;
     font-weight: 500;
-}
+} */
 .row>* {
   flex-shrink: 0;
   width: 100%;
@@ -13055,12 +13084,12 @@ padding-top: 33px;
     background: white;
     width: 420px;
     padding: 10px;
-    height: 380px;
+    height: 300px;
     border-radius: 20px;
     box-shadow: 0 1px 2px 0 rgb(50 55 60 / 30%), 0 1px 3px 1px rgb(60 64 67 / 15%);
 }
 #ourGoul{
-  font-size: 30px;
+  font-size: 22px;
   font-weight: 500;
 
 }
@@ -13070,7 +13099,7 @@ padding-top: 33px;
 
 
 #ourGoul{
-  font-size: 25px;
+  font-size: 22px;
   font-weight: 500;
 
 }
@@ -13127,4 +13156,19 @@ width:
   gap: 20px;
 }
 
- 
+ /* .what-we-do-box{
+  background-color: #131639;;
+  padding: 9px;
+  color: white;
+  box-shadow: 0 1px 2px 0 rgb(50 55 60 / 30%), 0 1px 3px 1px rgb(60 64 67 / 15%);
+border-radius: 10px;
+ } */
+
+ /* .whoWe-box{
+  background: white;
+  padding: 20px;
+} */
+
+.Areas-Img:hover{
+  background-color: #131639;
+}
