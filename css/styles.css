@@ -12986,7 +12986,7 @@ border-radius: 10px;
   flex-shrink: 0;
   width: 100%;
   max-width: 100%;
-  padding: 35px;
+  padding: 5px;
   /* padding-right: calc(var(--bs-gutter-x) * 0); */
   /* padding-left: calc(var(--bs-gutter-x) * 0); */
   margin-top: var(--bs-gutter-y);
@@ -13109,6 +13109,8 @@ border-radius: 10px;
   .center-text-22 {
     background: white;
     width: 290px;
+    height: 337px;
+
     padding: 10px;
     border-radius: 20px;
     box-shadow: 0 1px 2px 0 rgb(50 55 60 / 30%), 0 1px 3px 1px rgb(60 64 67 / 15%);
@@ -13120,7 +13122,8 @@ border-radius: 10px;
 
 @media (max-width: 350px) {
   .center-text-22 {
-  
+    height: 350px;
+
     width: 250px;
     padding: 10px;
     border-radius: 20px;
@@ -13134,7 +13137,7 @@ border-radius: 10px;
   flex-shrink: 0;
   width: 100%;
   max-width: 100%;
-  padding: 20px;
+  padding: 8px;
   /* padding-right: calc(var(--bs-gutter-x) * 0); */
   /* padding-left: calc(var(--bs-gutter-x) * 0); */
   margin-top: var(--bs-gutter-y);
