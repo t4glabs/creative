@@ -12354,9 +12354,9 @@ body {
   height: 100%;
 }
 
-#order-list{
+/* #order-list{
   padding: 26px 70px;
-}
+} */
 /* .page-section {
   padding: 3rem 0;
 } */
@@ -12920,7 +12920,7 @@ padding-top: 33px;
 }
 .what-we-do-box{
   background-color: #131639;;
-  padding: 9px;
+  padding: 20px 40px;
   color: white;
   box-shadow: 0 1px 2px 0 rgb(50 55 60 / 30%), 0 1px 3px 1px rgb(60 64 67 / 15%);
 border-radius: 10px;
@@ -12933,7 +12933,7 @@ border-radius: 10px;
 
 
 #ul-tag{
-  padding: 20px 30px;
+  padding: 4px 30px;
 }
 @media (max-width: 680px) {
   .slbCaption {
