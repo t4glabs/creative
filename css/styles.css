@@ -5392,6 +5392,14 @@ fieldset:disabled .btn {
   .card-group>.card:not(:first-child) .card-footer {
     border-bottom-left-radius: 0;
   }
+
+  /* .team-img {
+    width: 300px;
+    height: 300px;
+  } */
+
+/* *************************************************************************************************** */
+
 }
 
 .accordion-button {
@@ -5422,6 +5430,8 @@ fieldset:disabled .btn {
   .accordion-button {
     transition: none;
   }
+
+  
 }
 
 .accordion-button:not(.collapsed) {
@@ -13012,14 +13022,19 @@ border-radius: 10px;
 
 
 
-@media (max-width: 375px) {
+@media (max-width: 555px) {
   .team-img {
     width: 270px;
     height: 270px;
   }
 }
 
-
+@media (max-width: 360px) {
+  .team-img {
+    width: 220px;
+    height: 220px;
+  }
+}
 
 
 
