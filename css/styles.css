@@ -12747,7 +12747,9 @@ padding-top: 33px;
     justify-content: center;
     align-items: center;
   padding-top: 20px;
-  font-size: 16px;
+  font-size: 0.9rem;
+
+  /* font-size: 16px; */
 }
 
 
@@ -13068,7 +13070,7 @@ border-radius: 10px;
   /* padding: 30px 25px; */
 }
 .icon2{
-  width: 180px;
+  /* width: 180px; */
   height: 180px;
 }
 
